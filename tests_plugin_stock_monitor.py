@@ -336,7 +336,7 @@ def last_kb():
 
 name = dispatch_cb(f"47:{plugin.UUID}:0")
 check("5.2 страница настроек плагина открывает меню",
-      name == "open_home" and "Монитор остатков" in last_text())
+      name == "open_home" and "StockMonitor" in last_text())
 check("5.3 главная: статистика (1 файл ниже порога)",
       "Ниже порога: <b>1</b>" in last_text() and "Файлов с товаром: <b>2</b>" in last_text())
 

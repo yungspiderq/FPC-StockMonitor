@@ -51,12 +51,12 @@ from Utils import cardinal_tools
 logger = logging.getLogger("FPC.StockMonitor")
 
 # ══════════════════════════════ МЕТАДАННЫЕ ПЛАГИНА ══════════════════════════════
-NAME = "Монитор остатков товаров"
-VERSION = "1.0.0"
+NAME = "StockMonitor (Product Stock Monitor)"
+VERSION = "1.0.1"
 DESCRIPTION = ("Следит за остатками товаров в автовыдаче: предупреждает, когда товар "
                "заканчивается (порог настраивается для каждого лота), шлет критическое "
                "уведомление при нуле и утренний дайджест. Команда: /stock")
-CREDITS = "Qwen (для FunPay Cardinal)"
+CREDITS = "yungspider"
 UUID = "9210cf03-d65c-473b-b155-5da0c3f9e211"
 SETTINGS_PAGE = True
 
